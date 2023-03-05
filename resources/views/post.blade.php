@@ -15,7 +15,7 @@
 
             <img src="https://source.unsplash.com/1200x400?{{ $post->category->name }}" class="img-fluid" alt="">
 
-            {!! $post->body; !!}
+            {!! $post->content; !!}
 
             <a href="/posts" class="d-block mt-3">Back To Posts</a>
         </div>

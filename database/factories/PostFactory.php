@@ -21,10 +21,11 @@ class PostFactory extends Factory
             'slug' => $this->faker->slug(),
             'excerpt' => $this->faker->paragraph(),
             // 'body' => '<p>'.implode('<p></p>'),$this->faker->paragraphs(mt_rand(5,10)).'<p>',
-            'body' => collect($this->faker->paragraphs(mt_rand(5,10))) 
+            'content' => collect($this->faker->paragraphs(mt_rand(5,10))) 
                     ->map(function($p){
                         return "<p>$p</p>";
                     })->implode(''),
+            'image' => "LogoInvestree.jpg",
             'user_id' =>mt_rand(1,3),
             'category_id' =>mt_rand(1,3)
         ];

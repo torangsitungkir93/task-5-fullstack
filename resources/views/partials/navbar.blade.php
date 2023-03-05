@@ -1,6 +1,9 @@
-<nav class="navbar navbar-expand-lg navbar-dark bg-danger">
+<nav class="navbar navbar-expand-lg navbar-dark bg-success">
     <div class="container">
-      <a class="navbar-brand" href="/">| Laravel Blog | </a>
+      <a class="navbar-brand" href="/categories">
+        <img src="img/favicon.png" alt="investree logo" width="40" height="32" class="d-inline-block align-text-top">
+        Investree Laravel Blog 
+      </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>

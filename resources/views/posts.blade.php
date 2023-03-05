@@ -10,12 +10,13 @@
             @if(request('category'))
                 <input type="hidden" name="category" value="{{ request('category') }}">
             @endif
+            
             @if(request('author'))
                 <input type="hidden" name="author" value="{{ request('author') }}">
             @endif
             <div class="input-group mb-3">
                 <input type="text" class="form-control" placeholder="Search" name="search" value="{{ request('search') }}">
-                <button class="btn btn-danger" type="submit">Search</button>
+                <button class="btn btn-primary" type="submit">Search</button>
               </div>
         </form>
     </div>
@@ -30,7 +31,7 @@
             <small class="text-muted">
             By. <a href="/posts?author={{ $posts[0]->author->username }}"
                 class="text-decoration-none">{{ $posts[0]->author->name; }}</a> in
-            <a href="/posts?categories={{ $posts[0]->category->slug; }}"
+            <a href="/posts?category={{ $posts[0]->category->slug; }}"
                 class="text-decoration-none">{{ $posts[0]->category->name; }}</a>
             {{ $posts[0]->created_at->diffForHumans() }}
             </small>

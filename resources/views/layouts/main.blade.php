@@ -11,6 +11,7 @@
 
     {{-- My Style --}}
     <link rel="stylesheet" href="/css/style.css">
+    <link rel="shortcut icon" href="img/favicon.png" />
     <title>{{ $title }}</title>
   </head>
   <body>

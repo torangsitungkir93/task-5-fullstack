@@ -32,7 +32,7 @@ class DatabaseSeeder extends Seeder
             'slug' => 'web-design',
         ]);
 
-        Post::factory(20)->create();
+        Post::factory(100)->create();
 
 
         // User::create([

@@ -10,12 +10,12 @@ class Post
             "title" => "Judul Post Pertama",
             "slug" => "judul-post-pertama",
             "author" => "Torangto Situngkir",
-            "body" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure recusandae hic fugit a corrupti eius magnam dicta, soluta dolorum, mollitia nobis. Molestias maxime earum distinctio qui repellendus fugit porro deleniti excepturi impedit ea dolorem, fuga eligendi deserunt temporibus. Tempora deserunt quasi inventore quas officiis rem? Saepe voluptatibus modi recusandae quo temporibus! Ab, sunt. Harum dignissimos recusandae, dolorem modi ex sed magni eum, quasi unde commodi, obcaecati minus voluptatum vero fugiat esse excepturi minima doloremque quos nostrum? Ut vero repellat architecto."
+            "content" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure recusandae hic fugit a corrupti eius magnam dicta, soluta dolorum, mollitia nobis. Molestias maxime earum distinctio qui repellendus fugit porro deleniti excepturi impedit ea dolorem, fuga eligendi deserunt temporibus. Tempora deserunt quasi inventore quas officiis rem? Saepe voluptatibus modi recusandae quo temporibus! Ab, sunt. Harum dignissimos recusandae, dolorem modi ex sed magni eum, quasi unde commodi, obcaecati minus voluptatum vero fugiat esse excepturi minima doloremque quos nostrum? Ut vero repellat architecto."
         ],[
             "title" => "Judul Post Kedua",
             "slug" => "judul-post-kedua",
             "author" => "Erik Cantona",
-            "body" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure recusandae hic fugit a corrupti eius magnam dicta, soluta dolorum, mollitia nobis. Molestias maxime earum distinctio qui repellendus fugit porro deleniti excepturi impedit ea dolorem, fuga eligendi deserunt temporibus. Tempora deserunt quasi inventore quas officiis rem? Saepe voluptatibus modi recusandae quo temporibus! Ab, sunt. Harum dignissimos recusandae, dolorem modi ex sed magni eum, quasi unde commodi, obcaecati minus voluptatum vero fugiat esse excepturi minima doloremque quos nostrum? Ut vero repellat architecto."
+            "content" => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure recusandae hic fugit a corrupti eius magnam dicta, soluta dolorum, mollitia nobis. Molestias maxime earum distinctio qui repellendus fugit porro deleniti excepturi impedit ea dolorem, fuga eligendi deserunt temporibus. Tempora deserunt quasi inventore quas officiis rem? Saepe voluptatibus modi recusandae quo temporibus! Ab, sunt. Harum dignissimos recusandae, dolorem modi ex sed magni eum, quasi unde commodi, obcaecati minus voluptatum vero fugiat esse excepturi minima doloremque quos nostrum? Ut vero repellat architecto."
         ],
     ];
 public static function all() {
